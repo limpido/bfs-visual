@@ -1,0 +1,41 @@
+:root {
+  --light-blue: #bae6fd;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  overflow-y: auto;
+}
+
+.input {
+  width: 25%;
+}
+
+.output {
+  width: 70%;
+  overflow-x: auto;
+}
+
+#grid {
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--light-blue);
+}

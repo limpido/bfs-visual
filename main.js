@@ -122,6 +122,7 @@ async function solve(chars, start, end, check) {
           i++;
         }
         while (i < node.path.length) {
+          console.log(node.path[i])
           const newCell = document.getElementById(node.path[i]);
           newCell.style.backgroundColor = '#0ea5e9';
           i++;

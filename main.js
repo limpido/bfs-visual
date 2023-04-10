@@ -26,7 +26,7 @@ async function run() {
   drawGrid(chars);
 
   const order = document.querySelector('input[name="search_order"]:checked').value;
-  const [start, end] = order.split();
+  const [start, end] = order.split('');
 
   if (start === 'S') {
     await solve(chars, start, end, checkSE);
